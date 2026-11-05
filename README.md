@@ -6,4 +6,10 @@ Trabalho direcionado a disciplina de Laboratório de Algoritmos e estruturas de 
 - Carlos Henrique De Queiroz - ( 2025022528 ) | [Carlos Queiroz](https://github.com/CarlossQueiroz)
 - Pablo Rubens De Moura - ( 2025022561 ) | [Pablo](https://github.com/pablozin)
 
+# Configuração
+- E1.1 - Vetor estático; capacidade fixa.
+- H6 - Polinomial; combinar símbolos/dígitos com pesos polinomiais.
+- C4 - Hash duplo
+- A2 - Controle de estoque; Código do produto; Nome, quantiodade, preço
+
 # Funcionamento do programa
