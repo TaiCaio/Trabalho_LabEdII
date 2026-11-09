@@ -27,6 +27,7 @@ typedef struct {
   size_t cont_colisoes;
   size_t cont_sondagens;
   size_t cont_comparacoes;
+  Slot slots[CAPACIDADE_MAXIMA];
 } TabelaHashEstoque;
 
 // Funções para preparar a estrutura e tratar as entradas antes das operações
