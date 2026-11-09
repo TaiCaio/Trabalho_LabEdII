@@ -13,3 +13,9 @@ Trabalho direcionado a disciplina de Laboratório de Algoritmos e estruturas de 
 - A2 - Controle de estoque; Código do produto; Nome, quantiodade, preço
 
 # Funcionamento do programa
+- Sequencia de comandos: gcc main.c tabela_hash.c -o main
+main
+gcc testes.c tabela_hash.c -o testes
+testes
+gcc experimentos.c tabela_hash.c -o experimentos
+experimentos
