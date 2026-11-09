@@ -6,11 +6,8 @@
 static TabelaHashEstoque estoque;
 
 int main(void) {
-    printf("==========================================================\n");
     printf(" BATERIA DE TESTES OBRIGATORIOS - CONFIGURACAO 70 (C11)\n");
     printf(" (E1.1: Vetor Estatico | H6: Polinomial | C4: Hash Duplo | A2: Estoque)\n");
-    printf("==========================================================\n\n");
-
     inicializarTabela(&estoque, 11); // m = 11 (primo), m2 = 7
 
     // Teste 7.1: Estrutura vazia
