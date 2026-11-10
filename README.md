@@ -6,7 +6,7 @@ O projeto implementa a configuração estrutural correspondente ao índice **70:
 - **E1.1 (Estrutura):** Vetor estático com capacidade fixa.
 - **H6 (Função Hash):** Polinomial (combinação de caracteres com pesos polinomiais).
 - **C4 (Tratamento de colisões):** Hash duplo.
-- **A2 (Aplicação):** Controle de estoque (Chave: Código do produto | Valores: Nome, quantiodade, preço).
+- **A2 (Aplicação):** Controle de estoque (Chave: Código do produto | Valores: Nome, quantidade, preço).
 ---
 ## Compilação e Execução
 O projeto é dividido em três módulos independentes. Utilize os comandos abaixo no terminal Linux/Unix para compilar e executar cada um. As flags ```-std=c11 -Wall -Wextra``` garantem a conformidade e a exibição de todos os alertas de segurança.
