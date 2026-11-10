@@ -1,21 +1,39 @@
 # Trabalho LAEDII
-Trabalho direcionado a disciplina de Laboratório de Algoritmos e estruturas de dados II, ministrada pelo professor Dr. Kennedy Reurison Lopes no período 2026.2, na Universidade Federal Rural do Semi-Árido (UFERSA).
+Trabalho direcionado a disciplina de Laboratório de Algoritmos e Estruturas de Dados II, ministrada pelo professor Dr. Kennedy Reurison Lopes no período 2026.2, na Universidade Federal Rural do Semi-Árido (UFERSA).
+___
+## Configuração Atribuída
+O projeto implementa a configuração estrutural correspondente ao índice **70:**
+- **E1.1 (Estrutura):** Vetor estático com capacidade fixa.
+- **H6 (Função Hash):** Polinomial (combinação de caracteres com pesos polinomiais).
+- **C4 (Tratamento de colisões):** Hash duplo.
+- **A2 (Aplicação):** Controle de estoque (Chave: Código do produto | Valores: Nome, quantiodade, preço).
+---
+## Compilação e Execução
+O projeto é dividido em três módulos independentes. Utilize os comandos abaixo no terminal Linux/Unix para compilar e executar cada um. As flags ```-std=c11 -Wall -Wextra``` garantem a conformidade e a exibição de todos os alertas de segurança.
 
-# Autores
+**1. Aplicação Principal:**
+
+```bash
+gcc -std=c11 -Wall -Wextra main.c tabela_hash.c -o main
+./main
+```
+
+**2. Testes Obrigatórios:**
+
+```bash
+gcc -std=c11 -Wall -Wextra testes.c tabela_hash.c -o testes
+./testes
+```
+
+**3. Benchmarks:**
+*Nota: A flag `-D_POSIX_C_SOURCE=199309L` é necessária para habilitar a medição de tempo em nanossegundos no Linux.*
+
+```bash
+gcc -std=c11 -Wall -Wextra -D_POSIX_C_SOURCE=199309L experimentos.c tabela_hash.c -o experimentos
+./experimentos
+```
+---
+## Autores
 - Caio Barreto Meyer - ( 2023011893 ) | [Caio B. Meyer](https://github.com/TaiCaio)
 - Carlos Henrique De Queiroz - ( 2025022528 ) | [Carlos Queiroz](https://github.com/CarlossQueiroz)
 - Pablo Rubens De Moura - ( 2025022561 ) | [Pablo](https://github.com/pablozin)
-
-# Configuração
-- E1.1 - Vetor estático; capacidade fixa.
-- H6 - Polinomial; combinar símbolos/dígitos com pesos polinomiais.
-- C4 - Hash duplo
-- A2 - Controle de estoque; Código do produto; Nome, quantiodade, preço
-
-# Funcionamento do programa
-- Sequencia de comandos: gcc main.c tabela_hash.c -o main
-main
-gcc testes.c tabela_hash.c -o testes
-testes
-gcc experimentos.c tabela_hash.c -o experimentos
-experimentos
