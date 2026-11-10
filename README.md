@@ -1,5 +1,10 @@
 # Trabalho LAEDII
 Trabalho direcionado a disciplina de Laboratório de Algoritmos e Estruturas de Dados II, ministrada pelo professor Dr. Kennedy Reurison Lopes no período 2026.2, na Universidade Federal Rural do Semi-Árido (UFERSA).
+
+## Autores
+- Caio Barreto Meyer - ( 2023011893 ) | [Caio B. Meyer](https://github.com/TaiCaio)
+- Carlos Henrique De Queiroz - ( 2025022528 ) | [Carlos Queiroz](https://github.com/CarlossQueiroz)
+- Pablo Rubens De Moura - ( 2025022561 ) | [Pablo](https://github.com/pablozin)
 ___
 ## Configuração Atribuída
 O projeto implementa a configuração estrutural correspondente ao índice **70:**
@@ -33,7 +38,4 @@ gcc -std=c11 -Wall -Wextra -D_POSIX_C_SOURCE=199309L experimentos.c tabela_hash.
 ./experimentos
 ```
 ---
-## Autores
-- Caio Barreto Meyer - ( 2023011893 ) | [Caio B. Meyer](https://github.com/TaiCaio)
-- Carlos Henrique De Queiroz - ( 2025022528 ) | [Carlos Queiroz](https://github.com/CarlossQueiroz)
-- Pablo Rubens De Moura - ( 2025022561 ) | [Pablo](https://github.com/pablozin)
+

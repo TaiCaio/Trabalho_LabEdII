@@ -211,7 +211,7 @@ bool remover(TabelaHashEstoque *tab, const char *chave) {
 }
 
 void listarRegistros(const TabelaHashEstoque *tab) {
-    printf("=== Registros Ativos no Estoque (n = %zu) ===\n", tab->n);
+    printf(" Registros Ativos no Estoque (n = %zu) \n", tab->n);
     for (size_t i = 0; i < tab->m; ++i) {
         if (tab->slots[i].estado == SLOT_OCUPADO) {
             const Produto *p = &tab->slots[i].registro;
@@ -222,7 +222,7 @@ void listarRegistros(const TabelaHashEstoque *tab) {
 }
 
 void exibirEstrutura(const TabelaHashEstoque *tab) {
-    printf("=== Estado da Tabela Hash (m = %zu, m2 = %zu, n = %zu, alpha = %.3f, colisoes = %zu) ===\n",
+    printf(" Estado da Tabela Hash (m = %zu, m2 = %zu, n = %zu, alpha = %.3f, colisoes = %zu) \n",
            tab->m, tab->m2, tab->n, fatorCarga(tab), tab->cont_colisoes);
     for (size_t i = 0; i < tab->m; ++i) {
         printf("Indice [%2zu]: ", i);
